@@ -37,3 +37,7 @@ Before execute this script, you need to make sure the dataset folder is arranged
   Execute the script with `python generate_img_data_from_dcm.py`.
 - `regenerate_caption_only.py` is used to regenerate the caption if the caption is generated incorrectly.
 This is used to reduce the time from reading the dicom files while generate the caption as needed.
+- `read_data.py` is an example script to read the data after the `generate_img_data_from_dcm.py` has been executed.
+- `get_data_list.py` is used to retrieve the list of the file under a specific class. The followings txt files are generated from this script.
+  - `ihps_data_lists.txt` is the list of the file under `ihps` class.
+  - `normal_data_lists.txt` is the list of the file under `normal` class.
